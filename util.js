@@ -1,6 +1,6 @@
 const generateText = (name, age) => {
   // Returns output text
-  return `${name} (${age} years old)`;
+  return `${name} is ${age} years old`;
 };
 
 exports.createElement = (type, text, className) => {
